@@ -1,25 +1,26 @@
-import { useState, useEffect } from 'react';
-import './App.css'
-import { Routes, Route } from 'react-router-dom'
+import './App.css';
+// import NavBar from "./views/NavBar";
+import Homepage from "./views/Homepage";
+// import Player from "./views/Player";
+// import Info from "./views/Info";
+// import Footer from "./views/Footer";
+import { Route, Routes } from "react-router-dom";
+
 
 function App() {
-  return <h1>Pokemon fight</h1>
-
-
-  // const [pokemon, setPokemon] = useState([]);
-  // const [pokemons, setPokemons] = useState([]);
-  
-  // //set useEffect hook in order to invoke function only when app is loaded 
-  // useEffect(() => {
-    
-    //   getPokemons()
-    
-    // }, []);
-    
-    
-
+  return (
+    <>
+      <div className="container">
+        {/* <NavBar />  */}
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+          {/* //   <Route path="/name/"name"" element={<Player />}/> */}
+          {/* //   <Route path="/:id" element={<Info />} /> */}
+          </Routes>
+      </div>
+      {/* <Footer /> */}
+    </>
+  )
 }
-
-
 
 export default App;
