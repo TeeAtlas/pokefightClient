@@ -1,5 +1,27 @@
-/* src/views/LandingPage.css */
-.landing_image {
+/* LandingPage.css */
+.container_landing {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aligns the image to the center */
+    height: 100%;
+    width: 100%;
+  }
+  
+  .background_image {
+    position: absolute;
+    top: 1em; /* Positions the div 10em from the top of the container */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../src/assets/images/background/grass.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .landing_image {
+    margin-top: 19em;
+    margin-left: 1em;
+    max-width: 90%;
     animation: landing-animation 10s forwards;
   }
   

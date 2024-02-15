@@ -16,7 +16,11 @@ function LandingPage() {
     return (
         <> 
             <div className='container_landing'>
-                <img src="../assets/images/landingpage/bulbasaur.png" alt='LandingPage' className='landing_img' />
+
+                <div className='background_image'></div> 
+                <div className='body_landing'>
+                    <img src="../src/assets/images/landingpage/bulbasaur.png" alt='LandingPage' className='landing_image' />
+                </div>
             </div>
         </>
         
