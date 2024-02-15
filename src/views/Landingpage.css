@@ -1,0 +1,19 @@
+/* src/views/LandingPage.css */
+.landing_image {
+    animation: landing-animation 10s forwards;
+  }
+  
+  @keyframes landing-animation {
+    0% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1);
+    }
+    90% {
+      transform: scale(1.1) rotate(0deg);
+    }
+    100% {
+      transform: scale(1.1) rotate(360deg);
+    }
+  }
