@@ -1,5 +1,6 @@
 /* LandingPage.css */
 .container_landing {
+    background-color: pink;
     display: flex;
     justify-content: center;
     align-items: center; /* Aligns the image to the center */
@@ -7,9 +8,17 @@
     width: 100%;
   }
   
+  .logo {
+    position: absolute;
+    top: -2em;
+    max-width: 17em;
+    display: block;
+    margin: 0 auto;
+  }
+  
   .background_image {
     position: absolute;
-    top: 1em; /* Positions the div 10em from the top of the container */
+    top: 5em; /* Positions the div 10em from the top of the container */
     left: 0;
     right: 0;
     bottom: 0;
@@ -17,12 +26,12 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .landing_image {
     margin-top: 19em;
     margin-left: 1em;
     max-width: 90%;
-    animation: landing-animation 10s forwards;
+    animation: landing-animation 5s forwards;
   }
   
   @keyframes landing-animation {

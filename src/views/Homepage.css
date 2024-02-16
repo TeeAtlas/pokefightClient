@@ -1,0 +1,57 @@
+.container_homepage {
+    position: center; /* Makes the .button_container position relative to this div */
+  }
+
+  h1 {
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  .char {
+    position: absolute;
+    top: 10em;
+    left: 1.5em;
+    max-height: 21em;
+  }
+
+
+  .button_container {
+    gap: 1em;
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+  }
+
+.silhouette {
+    background-image: url('../src/assets/images/BW_chars/charizard.png'); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80vh; /* 80% of the viewport's height */
+    width: 80vw; /* 80% of the viewport's width */
+    transform: translate(-50%, -50%); /* Centers the div */
+    background-repeat: no-repeat;
+    background-size: contain; /* Makes the image fit within the div */
+    background-position: center; /* Centers the image within the div */
+  }
+  
+  .animate {
+    animation: cycle 10s infinite;
+  }
+  
+  @keyframes cycle {
+    0% { background-image: url('./src/assets/images/BW_chars/blastoise-bw.png'); }
+    /* 10% { background-image: url('../src/assets/images/BW_chars/bulbasaur-bw.png'); }
+    20% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    30% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    40% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    50% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    60% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    70% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    80% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    90% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
+    100% { background-image: url('path/to/image10.png'); } */
+  }
