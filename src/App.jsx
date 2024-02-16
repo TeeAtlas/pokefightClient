@@ -15,7 +15,7 @@ function App() {
         {/* <NavBar />  */}
           <Routes>
             <Route path="/landingpage" element={<LandingPage />} />  
-            <Route path="/homepage" element={<Homepage />} />
+            {/* <Route path="/homepage" element={<Homepage />} /> */}
           {/* //   <Route path="/name/"name"" element={<Player />}/> */}
           {/* //   <Route path="/:id" element={<Info />} /> */}
           </Routes>

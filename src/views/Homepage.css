@@ -1,9 +1,21 @@
+
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('../src/assets/images/fonts/PokemonSolid.ttf') format('truetype');
+}
 .container_homepage {
-    position: center; /* Makes the .button_container position relative to this div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Other styles... */
   }
 
-  h1 {
-    margin-top: 2em;
+h1 {
+    font-size: 2.3em;
+    outline: black;
+    color: rgb(5, 187, 14);
+    font-family: 'PokemonSolid', sans-serif;
+    margin-top: 1.em;
     text-align: center;
   }
 
@@ -26,7 +38,7 @@
   }
 
 .silhouette {
-    background-image: url('../src/assets/images/BW_chars/charizard.png'); 
+    background-image: url('../src/assets/images/BW_chars/wartortle.png');
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,15 +55,25 @@
   }
   
   @keyframes cycle {
-    0% { background-image: url('./src/assets/images/BW_chars/blastoise-bw.png'); }
-    /* 10% { background-image: url('../src/assets/images/BW_chars/bulbasaur-bw.png'); }
-    20% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    30% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    40% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    50% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    60% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    70% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    80% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    90% { background-image: url('../src/assets/images/BW_chars/caterpie-bw.png'); }
-    100% { background-image: url('path/to/image10.png'); } */
+    0% { background-image: url('../src/assets/images/BW_chars/blastoise.png'); }
+    5% { background-image: url('../src/assets/images/BW_chars/bulbasaur.png'); }
+    10% { background-image: url('../src/assets/images/BW_chars/caterpie.png'); }
+    15% { background-image: url('../src/assets/images/BW_chars/charizard.png'); }
+    20% { background-image: url('../src/assets/images/BW_chars/charmander.png'); }
+    25% { background-image: url('../src/assets/images/BW_chars/charmeleon.png'); }
+    30% { background-image: url('../src/assets/images/BW_chars/ivysaur.png'); }
+    35% { background-image: url('../src/assets/images/BW_chars/squirtle.png'); }
+    40% { background-image: url('../src/assets/images/BW_chars/venusaur.png'); }
+    45% { background-image: url('../src/assets/images/BW_chars/wartortle.png'); }
+    50% { background-image: url('../src/assets/images/BW_chars/blastoise.png'); }
+    55% { background-image: url('../src/assets/images/BW_chars/bulbasaur.png'); }
+    60% { background-image: url('../src/assets/images/BW_chars/caterpie.png'); }
+    65% { background-image: url('../src/assets/images/BW_chars/charizard.png'); }
+    70% { background-image: url('../src/assets/images/BW_chars/charmander.png'); }
+    75% { background-image: url('../src/assets/images/BW_chars/charmeleon.png'); }
+    80% { background-image: url('../src/assets/images/BW_chars/ivysaur.png'); }
+    85% { background-image: url('../src/assets/images/BW_chars/squirtle.png'); }
+    90% { background-image: url('../src/assets/images/BW_chars/venusaur.png'); }
+    95% { background-image: url('../src/assets/images/BW_chars/wartortle.png'); }
+    100% { background-image: url('../src/assets/images/BW_chars/charizard.png'); }
   }

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+// import Button from '@material-ui/core';
 import './HomePage.css';
 
 function Homepage () {
@@ -15,10 +16,7 @@ function Homepage () {
   return (
     <div className='container_homepage'>
       <h1 className='title'>Ready Player One</h1>
-
-      <img src="../src/assets/images/BW_chars/wartortlebw.png" alt="Pokemon Char" className='char' />
-
-      {/* <div className={`silhouette ${animate ? 'animate' : ''}`}></div> */}
+      <div className={`silhouette ${animate ? 'animate' : ''}`}></div>
 
       <div className='button_container'>
         <button onClick={() => {}}>Choose Player</button>
