@@ -27,14 +27,14 @@
     background-size: cover;
   }
 
-  .landing_image {
+  /* .landing_image {
     margin-top: 19em;
     margin-left: 1em;
     max-width: 90%;
     animation: landing-animation 5s forwards;
-  }
+  } */
   
-  @keyframes landing-animation {
+  /* @keyframes landing-animation {
     0% {
       transform: scale(1);
     }
@@ -47,4 +47,4 @@
     100% {
       transform: scale(1.1) rotate(360deg);
     }
-  }
+  } */
